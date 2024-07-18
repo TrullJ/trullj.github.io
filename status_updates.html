@@ -151,3 +151,27 @@ user will likely only submit a URL or file for analysis, not both, and thus good
 <h4>What are some ideas for improvement in your process?</h4>
   
 <p>No significant improvements identified this week.</p>
+
+<h3>Week 9 Update</h3>
+  
+<h4>What did I accomplish this week?</h4>
+
+<p>I completed an initial build of the frontend microservice.  The frontend service has one input box that can take
+in a URL or email (as of now) and upon submission, calls a second microservice that calls APIs to collect information
+on whether an eamil or URL is suspicious.  The worker microservices return the results back to the frontend.  I tested
+the frontend and email microservices and was pleased that they communicated as expected and returned the proper results.</p>
+  
+<h4>What is planned for next week?</h4>
+
+<p>Next week, I plan to complete the frontend component for routing calls to the URL validation microservice.</p>
+  
+<h4>What went well in the process/plan for the week?</h4>
+
+<p>Development continues to move smoothly.  I did make one change to the plan.  Instead of building the SSL microservice, I 
+instead focused on getting the frontend built and wired with the email Microservice to ensure the architecture works.  I felt
+this change in schedule was needed so that I would not need to re-architect a design that might not work.</p>
+
+<h4>What are some ideas for improvement in your process?</h4>
+  
+<p>I found it necessary to sketch out the architecture on paper first before beginning to write the code.  I found this to help
+solidify the code I needed to write and is something I will use going forward.</p>
