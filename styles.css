@@ -2,9 +2,19 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px; /* Adds space around the entire content */
     background-color: #f4f4f4;
     color: #333;
+}
+
+/* Wrapper to constrain the width of the content */
+.container {
+    max-width: 1200px; /* Limits the width of the content to 1200px */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Styling the header */
@@ -52,10 +62,11 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    background-color: white;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #000; /* Adds solid black borders to the table, headers, and cells */
 }
 
 th, td {
@@ -87,3 +98,4 @@ footer {
     width: 100%;
     font-size: 0.9em;
 }
+
